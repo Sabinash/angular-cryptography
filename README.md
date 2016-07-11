@@ -36,8 +36,8 @@ var demoApp = angular.module('app', ['services', 'mdo-angular-cryptography']);
 * setup the encryption key in your config
 ```js
 angular.module.('app').config(['$cryptoProvider', function($cryptoProvider){
-	$cryptoProvider.setCryptographyKey('ABCD123');
-});
+    $cryptoProvider.setCryptographyKey('ABCD123');
+}]);
 ```
 
 Example Service Usage
